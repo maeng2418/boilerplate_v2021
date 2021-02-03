@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import { palette } from 'styled-tools';
 
 const Normalize = createGlobalStyle`
   html {

@@ -1,8 +1,8 @@
-import color from './color';
+import palette from './color';
 import typograph from './typograph';
 
 const theme = {
-  color: color,
+  palette: palette,
   typograph: typograph,
 };
 

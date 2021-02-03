@@ -1,5 +1,6 @@
-declare module sample {
-  const sample_func: string = (): void => {
-    return 'SAMPLE';
-  };
+declare module 'sample' {
+  import { IStyledComponentProps } from 'styled-components-props';
+  interface ISampleProps extends IStyledComponentProps {
+    onClick?: () => {};
+  }
 }
